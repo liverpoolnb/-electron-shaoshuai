@@ -59,7 +59,7 @@ end
 
 
 
-
+%%
 BW1 = edge(f1,'roberts',0.16);
 BW2= edge(f1,'Sobel',0.16);
 BW3= edge(f1,'Prewitt',0.16);
@@ -84,4 +84,4 @@ for i = 1:100
     disp(imageFiles(i).name)
 end
 
-%读入图片
+%%
